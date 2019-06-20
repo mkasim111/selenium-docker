@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Search">
+    <test name = "Search for Java">
+        <parameter name ="keyword" value ="java"></parameter>
+        <classes>
+            <class name ="com.searchPage.tests.SearchPageTest"></class>
+        </classes>
+    </test>
+    <test name = "Search for Python">
+        <parameter name ="keyword" value ="python"></parameter>
+        <classes>
+            <class name ="com.searchPage.tests.SearchPageTest"></class>
+        </classes>
+    </test>
+</suite>
